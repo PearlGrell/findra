@@ -1,0 +1,28 @@
+name: findra
+description: "AI Image Conversational Chatbot"
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.2
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  dynamic_color: ^1.7.0
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  google_generative_ai: ^0.4.6
+  clipboard: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: ModelIcons
+      fonts:
+      - asset: lib/assets/icons/ModelIcons.ttf
