@@ -5,7 +5,7 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 class GeminiProvider {
   static final model = GenerativeModel(
     model: 'gemini-1.5-flash-latest',
-    apiKey: "AIzaSyAWORqUZ4H0qyi3kI2EbvwX-fNzTSncCgg",
+    apiKey: "GEMINI_API_KEY",
     systemInstruction: Content.system(
         "Don't include the sender role in output text, it is only for clear input. Don't include **text** as it cannot be understood, answer plain text without bold. Include bullets wherever necessary"),
   );
